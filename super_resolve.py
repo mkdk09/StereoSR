@@ -73,9 +73,11 @@ def main():
     input_img = Image.fromarray(input_img.transpose([1, 2, 0]), 'YCbCr')
     super_img = Image.fromarray(super_img.transpose([1,2,0]), 'YCbCr')
     plt.imshow(input_img)
-    plt.show()
+    # plt.show()
+    plt.savefig('input.png')
     plt.imshow(super_img)
-    plt.show()
+    # plt.show()
+    plt.savefig('super.png')
 
 
 if __name__ == '__main__':
