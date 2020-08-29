@@ -5,3 +5,7 @@ Flickr1024: A Dataset for Stereo Image Super-resolution (https://yingqianwang.gi
 ## usage
 - train: train.py --img-folder IMAGE_FOLDER
 - infer: super_resolve.py LEFT_IMAGE RIGHT_IMAGE 
+
+# reference
+
+https://qiita.com/kyoukuntaro/items/943d321875886bbb20f3
